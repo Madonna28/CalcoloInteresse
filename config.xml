@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.crt.app"
+    versionCode = "10"
+    version     = "1.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>App Calcolo Interesse</name>
+<descriptio>
+  </description>
+	App per calcolare l'interesse semplice
+  <author  email="saniaa.madonna@canossamilano.org">
+      Madonna Saniaa
+  </author>
+  <!-- icone per android e ios-->
+  <icon src="icona.png" platform="android" qualifier="ldpi"/>
+  <icon src="icona.png" platform="android" qualifier="mdpi"/>
+  <icon src="icona.png" platform="android" qualifier="hdpi"/>
+  
+  <icon src="icona.png" platform="ois" qualifier="ldpi"/>
+  <icon src="icona.png" platform="ois" qualifier="mdpi"/>
+  <icon src="icona.png" platform="ois" qualifier="hdpi"/>
+
+<!-- abilità l'accesso al web -->
+
+	<access origin="*"/>
+	<!-- accesso a skeleton per il css-->
+	<plungin name="cordova-plugin-whitelist" source="npm" />
+	<allow-navigation href="*://*getskeleton.com/*" />
+</widget>
