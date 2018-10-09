@@ -8,9 +8,10 @@
 <!-- versionCode is optional and Android only -->
 
   <name>App Calcolo Interesse</name>
-<descriptio>
-  </description>
+<description>
 	App per calcolare l'interesse semplice
+  </description>
+	
   <author  email="saniaa.madonna@canossamilano.org">
       Madonna Saniaa
   </author>
@@ -19,9 +20,9 @@
   <icon src="icona.png" platform="android" qualifier="mdpi"/>
   <icon src="icona.png" platform="android" qualifier="hdpi"/>
   
-  <icon src="icona.png" platform="ois" qualifier="ldpi"/>
-  <icon src="icona.png" platform="ois" qualifier="mdpi"/>
-  <icon src="icona.png" platform="ois" qualifier="hdpi"/>
+  <icon src="icona.png" platform="ios" qualifier="ldpi"/>
+  <icon src="icona.png" platform="ios" qualifier="mdpi"/>
+  <icon src="icona.png" platform="ios" qualifier="hdpi"/>
 
 <!-- abilità l'accesso al web -->
 
